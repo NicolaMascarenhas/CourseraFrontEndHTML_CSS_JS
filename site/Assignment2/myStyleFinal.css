@@ -1,0 +1,110 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+p{
+  border: 1.5px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+
+  padding: 5px;
+  margin-top:0;
+  margin-right:0;
+  margin-left: 65%;
+
+  color: black;
+  text-align: center;
+  font-size: 125%;
+}
+#Chicken
+{
+  background-color:rgba(218, 154, 94, 0.863);
+}
+#Beef
+{
+  background-color:rgba(214, 126, 44, 0.726);
+}
+#Sushi
+{
+  background-color:rgba(209, 89, 73, 0.863);
+}
+header{
+    /*background-color: burlywood; */
+    color: burlywood;
+    text-align: center;
+    font-weight: 800;
+    font-size: 200%;
+  
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /*border: 3px solid black;*/
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-style: normal;
+  font-size: 120%;
+  background:url('background_image.jpg') rgb(27, 12, 2) repeat-x; 
+}
+
+div {
+  border: 1px solid black;
+
+  background-color: #a52a2acc;
+  
+  /*height: 150px;  NO STD height causes unqual hts of 3 boxes but doest cause overflow of text*/
+  margin-right:15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  padding-bottom: 5px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 5px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  margin-left: 7px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  } 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+    float: left;
+  }
+  .col-md-12{
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12{
+    width: 100%;
+  }
+}
+/********** MOBILE****/
+
+@media (max-width: 767px) {
+  .col-sd-12{
+    float: left;
+  }
+  .col-sd-12 {
+    width: 100%;
+  }
+}
