@@ -1,0 +1,37 @@
+body
+{
+    color: black;
+}
+#header_nav{
+    background-color: rgb(0, 255, 213);
+    border-radius: 0;
+    border: 2px solid black;
+}
+.navbar-brand{ /*Food, LLC  */
+    font-size: 170%;
+    font-weight: bold;
+    /* NOT CHANGING COLOR or align */    
+}
+#page_heading /* Our Menu */
+{
+    color: rgb(0, 110, 255);
+    font-size: 140%;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center; /* NOT WOrking */
+}
+
+
+section
+{
+    height: 1000px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+p
+{
+    color: midnightblue;
+    font-size: 120%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
